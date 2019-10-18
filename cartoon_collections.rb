@@ -2,6 +2,8 @@ def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |item, index|
     dwarves[item] = index
   }
+  return dwarves
+  end
 end
 
 def summon_captain_planet# code an argument here
