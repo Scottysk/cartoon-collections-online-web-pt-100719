@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(elements)
   elements.map do |element|
-    puts "#{element}!"
+    element << elements
   end
 end
 
