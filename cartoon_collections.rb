@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
-  roll_call_dwarves.each_with_index { |item, index|
-    
+  dwarves.each_with_index { |item, index|
+    integer += 1
   }
 
 end
