@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(elements)
   elements.map do |element|
-    element.upcase << elements
+    element.upcase << "!"
   end
 end
 
