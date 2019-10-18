@@ -22,7 +22,7 @@ def find_the_cheese(cheese)
   i = 0
   while i < cheese.length 
   return (cheese[i]) if array.include?(cheese[i])
-  i += 1
+  i = i + 1
 else
   end
 end
