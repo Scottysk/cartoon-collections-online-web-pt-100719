@@ -3,8 +3,8 @@ def roll_call_dwarves(dwarves)
     dwarves[item] = index
   }
   end
-  return dwarves
   end
+    return dwarves
 end
 
 def summon_captain_planet# code an argument here
